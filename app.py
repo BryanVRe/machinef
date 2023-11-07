@@ -21,7 +21,7 @@ app.add_middleware(
 model = load(pathlib.Path('model/machine-failure.csv-v1.joblib'))
 
 class InputData(BaseModel):
-    UDI:int=1
+   
     Product:int=14860
     Type:int=0
     AirTeperature:float=298.1

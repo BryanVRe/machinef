@@ -1,7 +1,7 @@
 import requests
 body = {
    
-    "UDI": 1,
+    
     "Product":14860,
     "Type": 0,
     "AirTeperature": 298.1,
